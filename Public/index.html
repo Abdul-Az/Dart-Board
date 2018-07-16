@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dart board</title>
+		<link rel="stylesheet" type="text/css" href="DBstyle.css"/> 
+</head>
+<body>
+   <div class = "container">
+		
+	<div class= "circle" onclick="event.stopPropagation()">
+	<div class= "circle1" onclick="event.stopPropagation()">
+		<div class= "circle2" onclick="event.stopPropagation()">
+			<div class= "circle3" onclick="event.stopPropagation()">
+				
+			</div>
+		 </div>
+
+	</div>
+</div>
+</div>
+<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js">
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js">
+</script>
+<script>
+		$ ('.circle').click(function(){
+			swal("Good job!", "You clicked Yellow!", "success");
+		})
+	</script>
+	<script>
+			$ ('.circle1').click(function(){
+				swal("Good job!", "You clicked Blue!", "success");
+			})
+		</script>
+		<script>
+				$ ('.circle2').click(function(){
+					swal("Good job!", "You clicked Red!", "success");
+				})
+			</script>
+			<script>
+					$ ('.circle3').click(function(){
+						swal("Good job!", "You clicked Green!", "success");
+					})
+				</script>
+	<script></script>
+</body>
+</html>
+
